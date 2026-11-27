@@ -1,0 +1,26 @@
+parameters: 687,145  device: cuda
+~/lipi-train/code/train/train.py:98: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=device == "cuda")
+~/lipi-train/venv/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:216: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+epoch   0  63.7s  loss 28.914  val: iou 0.905 err 0.0149  real-400: iou 0.732 err 0.0661
+epoch   1  29.4s  loss 3.534  val: iou 0.939 err 0.0092  real-400: iou 0.727 err 0.0693
+epoch   2  29.0s  loss 1.800  val: iou 0.962 err 0.0055  real-400: iou 0.764 err 0.0559
+epoch   3  29.9s  loss 1.270  val: iou 0.964 err 0.0053  real-400: iou 0.742 err 0.0714
+epoch   4  29.5s  loss 1.128  val: iou 0.971 err 0.0044  real-400: iou 0.745 err 0.0663
+epoch   5  29.0s  loss 0.909  val: iou 0.974 err 0.0036  real-400: iou 0.729 err 0.0700
+epoch   6  29.7s  loss 0.842  val: iou 0.973 err 0.0039  real-400: iou 0.740 err 0.0647
+epoch   7  28.8s  loss 0.744  val: iou 0.977 err 0.0033  real-400: iou 0.737 err 0.0631
+epoch   8  29.5s  loss 0.679  val: iou 0.976 err 0.0034  real-400: iou 0.757 err 0.0578
+epoch   9  28.7s  loss 0.649  val: iou 0.978 err 0.0030  real-400: iou 0.766 err 0.0547
+epoch  10  28.2s  loss 0.612  val: iou 0.980 err 0.0029  real-400: iou 0.787 err 0.0504
+epoch  11  29.2s  loss 0.561  val: iou 0.982 err 0.0025  real-400: iou 0.740 err 0.0604
+epoch  12  29.7s  loss 0.567  val: iou 0.981 err 0.0028  real-400: iou 0.752 err 0.0614
+epoch  13  30.0s  loss 0.460  val: iou 0.981 err 0.0027  real-400: iou 0.772 err 0.0533
+epoch  14  28.8s  loss 0.443  val: iou 0.980 err 0.0027  real-400: iou 0.742 err 0.0613
+epoch  15  28.6s  loss 0.460  val: iou 0.983 err 0.0024  real-400: iou 0.794 err 0.0470
+epoch  16  30.2s  loss 0.443  val: iou 0.983 err 0.0024  real-400: iou 0.766 err 0.0543
+epoch  17  31.0s  loss 0.448  val: iou 0.982 err 0.0026  real-400: iou 0.762 err 0.0556
+epoch  18  29.2s  loss 0.411  val: iou 0.984 err 0.0023  real-400: iou 0.770 err 0.0558
+epoch  19  29.9s  loss 0.362  val: iou 0.984 err 0.0022  real-400: iou 0.768 err 0.0567
+TRAIN_DONE

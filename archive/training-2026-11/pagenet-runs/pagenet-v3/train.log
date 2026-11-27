@@ -1,0 +1,57 @@
+parameters: 687,145  device: cuda
+~/lipi-train/code/train/train.py:98: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=device == "cuda")
+~/lipi-train/venv/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:216: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+epoch   0  65.7s  loss 24.151  val: iou 0.920 err 0.0127  real-400: iou 0.848 err 0.0343
+epoch   1  59.8s  loss 4.278  val: iou 0.948 err 0.0076  real-400: iou 0.855 err 0.0320
+epoch   2  71.7s  loss 2.909  val: iou 0.951 err 0.0067  real-400: iou 0.876 err 0.0250
+epoch   3  71.8s  loss 2.446  val: iou 0.966 err 0.0050  real-400: iou 0.888 err 0.0231
+epoch   4  71.1s  loss 2.135  val: iou 0.965 err 0.0049  real-400: iou 0.893 err 0.0223
+epoch   5  55.0s  loss 1.905  val: iou 0.970 err 0.0044  real-400: iou 0.893 err 0.0215
+epoch   6  54.2s  loss 1.690  val: iou 0.972 err 0.0041  real-400: iou 0.897 err 0.0211
+epoch   7  60.6s  loss 1.600  val: iou 0.975 err 0.0036  real-400: iou 0.900 err 0.0201
+epoch   8  83.5s  loss 1.527  val: iou 0.976 err 0.0035  real-400: iou 0.899 err 0.0207
+epoch   9  70.6s  loss 1.383  val: iou 0.976 err 0.0035  real-400: iou 0.902 err 0.0208
+epoch  10  72.4s  loss 1.327  val: iou 0.978 err 0.0030  real-400: iou 0.901 err 0.0217
+epoch  11  60.4s  loss 1.263  val: iou 0.979 err 0.0030  real-400: iou 0.900 err 0.0210
+epoch  12  66.2s  loss 1.145  val: iou 0.979 err 0.0029  real-400: iou 0.909 err 0.0186
+epoch  13  71.7s  loss 1.161  val: iou 0.979 err 0.0028  real-400: iou 0.910 err 0.0189
+epoch  14  71.5s  loss 1.101  val: iou 0.979 err 0.0029  real-400: iou 0.906 err 0.0195
+epoch  15  70.5s  loss 1.068  val: iou 0.980 err 0.0029  real-400: iou 0.908 err 0.0194
+epoch  16  52.6s  loss 1.051  val: iou 0.979 err 0.0029  real-400: iou 0.907 err 0.0192
+epoch  17  52.3s  loss 1.034  val: iou 0.982 err 0.0024  real-400: iou 0.910 err 0.0186
+epoch  18  62.2s  loss 0.920  val: iou 0.982 err 0.0025  real-400: iou 0.907 err 0.0198
+epoch  19  78.1s  loss 0.918  val: iou 0.981 err 0.0026  real-400: iou 0.912 err 0.0183
+epoch  20  71.7s  loss 0.899  val: iou 0.981 err 0.0026  real-400: iou 0.910 err 0.0185
+epoch  21  65.7s  loss 0.840  val: iou 0.982 err 0.0025  real-400: iou 0.907 err 0.0198
+epoch  22  57.2s  loss 0.811  val: iou 0.982 err 0.0024  real-400: iou 0.905 err 0.0195
+epoch  23  71.4s  loss 0.796  val: iou 0.984 err 0.0022  real-400: iou 0.907 err 0.0198
+epoch  24  69.5s  loss 0.758  val: iou 0.984 err 0.0022  real-400: iou 0.911 err 0.0186
+epoch  25  73.8s  loss 0.754  val: iou 0.984 err 0.0022  real-400: iou 0.909 err 0.0190
+epoch  26  59.9s  loss 0.716  val: iou 0.983 err 0.0023  real-400: iou 0.913 err 0.0182
+epoch  27  52.2s  loss 0.696  val: iou 0.984 err 0.0022  real-400: iou 0.906 err 0.0204
+epoch  28  49.1s  loss 0.666  val: iou 0.985 err 0.0020  real-400: iou 0.909 err 0.0199
+epoch  29  52.1s  loss 0.670  val: iou 0.986 err 0.0020  real-400: iou 0.909 err 0.0196
+epoch  30  58.3s  loss 0.639  val: iou 0.985 err 0.0021  real-400: iou 0.904 err 0.0213
+epoch  31  56.2s  loss 0.628  val: iou 0.985 err 0.0021  real-400: iou 0.911 err 0.0184
+epoch  32  49.2s  loss 0.598  val: iou 0.986 err 0.0019  real-400: iou 0.914 err 0.0185
+epoch  33  52.0s  loss 0.598  val: iou 0.985 err 0.0020  real-400: iou 0.911 err 0.0185
+epoch  34  51.6s  loss 0.577  val: iou 0.986 err 0.0021  real-400: iou 0.906 err 0.0201
+epoch  35  51.8s  loss 0.548  val: iou 0.986 err 0.0019  real-400: iou 0.911 err 0.0188
+epoch  36  51.9s  loss 0.544  val: iou 0.987 err 0.0019  real-400: iou 0.910 err 0.0193
+epoch  37  51.8s  loss 0.527  val: iou 0.987 err 0.0017  real-400: iou 0.910 err 0.0190
+epoch  38  50.1s  loss 0.539  val: iou 0.987 err 0.0018  real-400: iou 0.910 err 0.0193
+epoch  39  50.4s  loss 0.501  val: iou 0.987 err 0.0017  real-400: iou 0.912 err 0.0185
+epoch  40  58.7s  loss 0.501  val: iou 0.987 err 0.0018  real-400: iou 0.910 err 0.0192
+epoch  41  57.6s  loss 0.494  val: iou 0.987 err 0.0018  real-400: iou 0.909 err 0.0193
+epoch  42  49.1s  loss 0.492  val: iou 0.987 err 0.0018  real-400: iou 0.908 err 0.0196
+epoch  43  47.9s  loss 0.490  val: iou 0.987 err 0.0018  real-400: iou 0.908 err 0.0197
+epoch  44  43.8s  loss 0.472  val: iou 0.986 err 0.0019  real-400: iou 0.908 err 0.0199
+epoch  45  53.4s  loss 0.486  val: iou 0.987 err 0.0018  real-400: iou 0.907 err 0.0199
+epoch  46  53.7s  loss 0.476  val: iou 0.987 err 0.0018  real-400: iou 0.908 err 0.0198
+epoch  47  54.3s  loss 0.474  val: iou 0.987 err 0.0019  real-400: iou 0.908 err 0.0199
+epoch  48  50.6s  loss 0.471  val: iou 0.987 err 0.0018  real-400: iou 0.907 err 0.0200
+epoch  49  52.8s  loss 0.467  val: iou 0.987 err 0.0018  real-400: iou 0.908 err 0.0199
+best mean IoU 0.9499
+TRAIN_DONE

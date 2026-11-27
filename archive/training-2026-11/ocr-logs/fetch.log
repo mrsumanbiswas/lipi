@@ -1,0 +1,26 @@
+[04:11:36] pip extras
+[04:12:02] mozhi bengali train
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:08] mozhi bengali val
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:09] mozhi bengali test
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:13] mozhi hindi train
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:23] mozhi hindi val
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:24] mozhi hindi test
+./fetch_ocr_data.sh: line 12: unzip: command not found
+[04:12:27] wikipedia text (CC BY-SA)
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:13<00:13, 13.10s/it]Fetching 2 files: 100%|██████████| 2/2 [00:13<00:00,  6.64s/it]Fetching 2 files: 100%|██████████| 2/2 [00:13<00:00,  6.64s/it]
+ok 20231101.bn
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:05<00:05,  5.75s/it]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.91s/it]Fetching 2 files: 100%|██████████| 2/2 [00:07<00:00,  3.92s/it]
+ok 20231101.hi
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Fetching 1 files: 100%|██████████| 1/1 [00:04<00:00,  4.47s/it]Fetching 1 files: 100%|██████████| 1/1 [00:04<00:00,  4.47s/it]
+ok 20231101.simple
+[04:12:55] fonts (OFL)
+fatal: cannot change to 'https://github.com/google/fonts.git': No such file or directory
+error: failed to initialize sparse-checkout
+./fetch_ocr_data.sh: line 29: cd: fonts-src/google-fonts: No such file or directory
+0
+[04:12:55] done
